@@ -22,8 +22,10 @@ github_username: ZHXQ-Summer
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ZHXQ-Summer.github.io" # the base hostname & protocol for your site, e.g. https://example.com
 Language: zh-CN # the language of your site, e.g. en-US
-minimal_mistakes_skin: dark
+minimal_mistakes_skin: “dark”
 search: true
+search_full_content: true    # 启用全文搜索
+search_provider: lunr        # 搜索提供者
 
 # Build settings
 markdown: kramdown
@@ -57,11 +59,13 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-remote-theme
 
 author:
   name   : "ZHXQ"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Zekai Wang"
+  bio    : "Per aspera ad astra."
+  location: "Beijing, China"  # 添加位置信息
   links:
     - label: "邮箱"
       icon: "fas fa-fw fa-envelope"
@@ -91,6 +95,9 @@ defaults:
       comments: true
       share: true
       related: true
+      show_date: true      # 显示日期
+      toc: true           # 显示目录
+      toc_sticky: true    # 固定目录
   # _pages
   - scope:
       path: "_pages"
