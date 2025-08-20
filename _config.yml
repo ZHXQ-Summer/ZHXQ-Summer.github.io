@@ -14,6 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: ZHXQ's Blog
+# 添加以下配置
+favicon: "/assets/images/favicon.ico"  # 或 .png
 email: 2400013155@stu.pku.edu.cn
 description: >- # this means to ignore newlines until "baseurl:"
   ZHXQ的个人博客

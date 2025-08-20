@@ -17,6 +17,7 @@
 .author__avatar {
   img {
     border-radius: 50%;
-    border: 3px solid #4a9eff;
+    border: 3px solid #000000;  // 添加3px宽的黑色边框
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);  // 可选：添加阴影效果
   }
 }
