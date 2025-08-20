@@ -1,6 +1,6 @@
 ---
 title: "帖子"
 permalink: /posts/
-layout: 我的帖子
+layout: posts
 author_profile: true
 ---
