@@ -31,6 +31,9 @@ search_provider: lunr        # 搜索提供者
 
 # Build settings
 markdown: kramdown
+kramdown:
+  syntax_highlighter_opts:
+    line_numbers: true
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/

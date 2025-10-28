@@ -21,3 +21,104 @@
     box-shadow: 0 0 10px rgba(0,0,0,0.2);  // 可选：添加阴影效果
   }
 }
+// 代码块整体样式
+.highlight {
+  background-color: #1a1a1a;
+  border: 1px dashed #333;
+  border-radius: 8px;
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.1);
+  margin: 1.5rem 0;
+  padding: 1rem;
+}
+
+// 代码行号样式
+.highlight .gutter {
+  color: #666;
+  border-right: 1px solid #333;
+  padding-right: 1rem;
+}
+
+// 代码高亮颜色（根据编程语言自定义）
+.language-cpp .k { color: #ff6b6b; } // 关键字橙色
+.language-cpp .s { color: #4ecdc4; } // 字符串青色
+.language-cpp .cm { color: #7f8c8d; } // 注释浅灰
+
+h1 {
+  font-weight: 700;
+  border-bottom: 2px solid #ff6b6b; // 橙色下划线
+  padding-bottom: 0.5rem;
+  margin-top: 2rem;
+}
+
+// 二级标题
+h2 {
+  font-weight: 600;
+  color: #ff6b6b; // 橙色强调
+  margin-top: 1.5rem;
+}
+
+// 段落间距
+p {
+  line-height: 1.8;
+  margin: 1rem 0;
+}
+
+blockquote {
+  background-color: #262626;
+  border-left: 4px solid #ff6b6b;
+  padding: 1rem;
+  margin: 1.5rem 0;
+  color: #ccc;
+  font-style: italic;
+}
+
+img {
+  display: block;
+  margin: 1.5rem auto;
+  max-width: 100%;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.figure-caption {
+  text-align: center;
+  color: #666;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+code {
+  background-color: #262626;
+  color: #ff6b6b;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.95rem;
+}
+
+a {
+  color: #ff6b6b;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #ff4d4f;
+  text-decoration: underline;
+}
+
+// 导航栏固定顶部
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+// 侧边栏宽度调整（默认 25%，可缩小至 20%）
+.sidebar {
+  width: 20%;
+}
+
+// 侧边栏文字颜色
+.sidebar .text-nowrap {
+  color: #ccc;
+}
