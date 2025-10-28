@@ -22,4 +22,36 @@
   }
 }
 
+// 调整段落文字大小
+.page__content p {
+  font-size: 0.9em; // 段落文字与正文保持一致或稍小
+}
+
+// 调整各级标题大小（按层级递减）
+.page__content h1 {
+  font-size: 1.8em; // 一级标题
+}
+.page__content h2 {
+  font-size: 1.5em; // 二级标题
+}
+.page__content h3 {
+  font-size: 1.3em; // 三级标题
+}
+
+// 调整列表文字大小
+.page__content ul,
+.page__content ol {
+  font-size: 0.9em; // 列表项文字
+}
+
+// 调整代码块文字大小（避免代码过小看不清）
+.highlight {
+  font-size: 0.85em; // 代码块文字（比正文稍小）
+}
+
+// 调整侧边栏文字大小（作者信息、分类等）
+.sidebar {
+  font-size: 0.85em; // 侧边栏整体文字
+}
+
 
