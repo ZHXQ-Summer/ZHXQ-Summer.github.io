@@ -80,20 +80,3 @@ code {
   font-size: 0.95rem;
 }
 
-// 导航栏固定顶部
-.navbar {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1000;
-}
-
-// 侧边栏宽度调整（默认 25%，可缩小至 20%）
-.sidebar {
-  width: 20%;
-}
-
-// 侧边栏文字颜色
-.sidebar .text-nowrap {
-  color: #ccc;
-}
